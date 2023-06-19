@@ -2,16 +2,16 @@
 This is a web scraper assignment where you are required to extract specific information from an HTML file and generate a JSON string as output. The task involves extracting various details related to a hotel from the provided HTML file.
 
 ## Task Description
-Write a data extractor that reads the content from the HTML file "task 1 - Kempinski Hotel Bristol Berlin, Germany - Booking.com.html" and extracts the following information:
+Scraper that reads the content from the HTML file "task 1 - Kempinski Hotel Bristol Berlin, Germany - Booking.com.html" and extracts the following information:
 
-* Hotel name (marked in red)
-* Address (marked in red)
-* Classification / stars (marked in red)
-* Review points (marked in pink)
-* Number of reviews (marked in pink)
-* Description (marked in blue)
-* Room categories (marked in green)
-* Alternative hotels (marked in yellow)
+* Hotel name
+* Address
+* Classification / stars
+* Review points
+* Number of reviews
+* Description
+* Room categories
+* Alternative hotels
 ## Prerequisites
 Before running the code, ensure that you have the following:
 
@@ -24,7 +24,7 @@ Before running the code, ensure that you have the following:
 * Open the terminal or command prompt.
 * Run the following command to execute the code:
 ```
-python web_scraper.py
+python3 start_scraping.py 
 
 ```
 
@@ -36,7 +36,8 @@ Unit tests have been implemented to ensure the correctness of the code. To run t
 * Open the terminal or command prompt.
 * Run the following command:
 ```
-python -m unittest test_web_scraper.py
+python3 -m unittest tests.test_scraper
+
 ```
 * The tests will be executed, and the test results will be displayed in the terminal or command prompt.
 ## Code Structure
